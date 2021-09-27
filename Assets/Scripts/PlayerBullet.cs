@@ -11,7 +11,7 @@ public class PlayerBullet : MonoBehaviour
     {
         rb = GetComponent<Rigidbody>();
         rb.AddForce(transform.right * force, ForceMode.Impulse);
-        //Destroy(gameObject, 2.5f);
+        Destroy(gameObject, 2.5f);
     }
 
     private void OnCollisionEnter(Collision c)
