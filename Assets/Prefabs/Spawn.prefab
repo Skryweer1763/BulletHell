@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9037511688636702405}
-  - component: {fileID: 1724297784262702256}
+  - component: {fileID: -6034783095785226526}
   m_Layer: 0
   m_Name: Spawn
   m_TagString: Untagged
@@ -31,7 +31,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1724297784262702256
+--- !u!114 &-6034783095785226526
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -40,6 +40,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2026980610965305866}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 07e2fc3f08ba9c049af1b809588eef8c, type: 3}
+  m_Script: {fileID: 11500000, guid: 8878c0a3741aaa545b7d9001dda9286c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Enemigo: {fileID: 5148530584912869592, guid: 4cd06ffeb9a170b41a7bde859b9fed5f, type: 3}
