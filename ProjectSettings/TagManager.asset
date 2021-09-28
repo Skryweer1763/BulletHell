@@ -5,11 +5,12 @@ TagManager:
   serializedVersion: 2
   tags:
   - Enemigo
+  - Muerte
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Enemigo
   - Water
   - UI
   - 
@@ -41,4 +42,7 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: New Layer
+    uniqueID: 3153786231
     locked: 0
