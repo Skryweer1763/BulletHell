@@ -57,6 +57,12 @@ public class Enemigo : MonoBehaviour
             Destroy(gameObject);
             
         }
+        if (c.gameObject.tag == "Character")
+        {
+
+            Destroy(gameObject);
+
+        }
     }
 
 }
