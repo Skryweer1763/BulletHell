@@ -4,17 +4,17 @@ using UnityEngine;
 
 public class PlayerBullet : MonoBehaviour
 {
-    Rigidbody rb;
+    Rigidbody2D rb;
     public float force = 10;
 
     void Start()
     {
-        rb = GetComponent<Rigidbody>();
-        rb.AddForce(transform.right * force, ForceMode.Impulse);
+        rb = GetComponent<Rigidbody2D>();
+        rb.AddForce(transform.right * force, ForceMode2D.Impulse);
         Destroy(gameObject, 2.5f);
     }
 
-    private void OnCollisionEnter(Collision c)
+    private void OnCollisionEnter2D(Collision2D collision)
     {
         Destroy(gameObject);
     }
